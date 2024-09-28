@@ -1,0 +1,145 @@
+
+.offer {
+    width: 80%; /* Adjusted to give a bit more space around */
+    height: 65vh;
+    display: flex;
+    margin: auto;
+    padding: 0 60px; /* Reduced padding for better spacing */
+    margin-top: 60px; /* Increased top margin */
+    margin-bottom: 100px; /* Adjusted bottom margin */
+    background: #674188; /* Background color */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.offer_left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 0 40px; /* Add some padding for better spacing */
+}
+
+.offer_left h1 {
+    color:  #F7EFE5; /* Heading color */
+    font-size: 3rem; /* Responsive font size */
+    font-weight: 700;
+    margin: 0; /* Remove default margin */
+    line-height: 1.2; /* Improve line height for readability */
+}
+
+.offer_left p {
+    color:  #F7EFE5; /* Text color */
+    font-size: 1.25rem; /* Responsive font size */
+    font-weight: 600;
+    margin: 20px 0; /* Space around text */
+    line-height: 1.5; /* Improve line height for readability */
+}
+
+.offer_left button {
+    width: 228px;
+    height: 70px;
+    border-radius: 35px;
+    border: none;
+    font-size: 1.25rem; /* Responsive font size */
+    font-weight: 500;
+    background:  #F7EFE5; /* Button background color */
+    color: #674188; /* Button text color */
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.offer_left button:hover {
+    background: #5b357b; /* Darker shade on hover */
+}
+
+.offer_right {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    padding-top: 0; /* Remove top padding to align with center */
+}
+
+.offer_right img {
+    max-width: 100%; /* Ensure image scales within container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px;
+    width: 80%; /* Adjusted to give a bit more space around */
+    height: 65vh;
+    display: flex;
+    margin: auto;
+    padding: 0 60px; /* Reduced padding for better spacing */
+    margin-top: 60px; /* Increased top margin */
+    margin-bottom: 100px; /* Adjusted bottom margin */
+    background: #674188 ; /* Background color */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.offer_left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 0 40px; /* Add some padding for better spacing */
+}
+
+.offer_left h1 {
+    color:  #F7EFE5; /* Heading color */
+    font-size: 3rem; /* Responsive font size */
+    font-weight: 700;
+    margin: 0; /* Remove default margin */
+    line-height: 1.2; /* Improve line height for readability */
+}
+
+.offer_left p {
+    color:  #F7EFE5; /* Text color */
+    font-size: 1.25rem; /* Responsive font size */
+    font-weight: 600;
+    margin: 20px 0; /* Space around text */
+    line-height: 1.5; /* Improve line height for readability */
+}
+
+.offer_left button {
+    font-weight: 700;
+    width: 228px;
+    height: 70px;
+    border-radius: 35px;
+    border: none;
+    font-size: 1.25rem; /* Responsive font size */
+    font-weight: 500;
+    background:  #F7EFE5; /* Button background color */
+    color: #674188; /* Button text color */
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.offer_left button:hover {
+    background:#F7EFE5; /* Darker shade on hover */
+}
+
+.offer_right {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    padding-top: 0; /* Remove top padding to align with center */
+}
+
+.offer_right img {
+    max-width: 100%; /* Ensure image scales within container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px   #F7EFE5; /* Subtle shadow for depth */
+}
+; /* Subtle shadow for depth */
+
+

@@ -1,0 +1,59 @@
+
+.hero {
+    background: #F7EFE5;
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly with space between them */
+    height: 500px; /* Set a specific height for the container */
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+.hero_left {
+    flex: 1; /* Allow this section to take up available space */
+    display: flex; /* Use Flexbox for alignment inside */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    padding-right: 20px; /* Add space between text and image */
+    color:#674188; /* Text color for better contrast */
+}
+
+.hero_right {
+    flex: 1; /* Allow this section to take up available space */
+    display: flex; /* Use Flexbox for alignment inside */
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+    overflow: hidden; /* Hide any overflow of the image */
+}
+
+.hero_right img {
+    width: 100%; /* Make the image scale to the full width of the container */
+    height: 100%; /* Make the image scale to the full height of the container */
+    object-fit: cover; /* Cover the container, maintaining aspect ratio */
+}
+
+/* Optional: Style for the "Order Now" button */
+.hero_fresh_button > div {
+    background: #674188; /* Button background color */
+    color:#F7EFE5; /* Text color */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    display: inline-block; /* Inline block for proper padding */
+    transition: background 0.3s; /* Smooth background color transition */
+}
+
+.hero_fresh_button > div:hover {
+    background: #523e6d; /* Darker color on hover */
+}
+.hero_left p{
+    color:#674188 ;
+    font-weight: 700;
+    font-size: 70px;
+}
+.hero_left h2{
+    color:#674188;
+    font-size: 26px;
+    font-weight: 600;
+}

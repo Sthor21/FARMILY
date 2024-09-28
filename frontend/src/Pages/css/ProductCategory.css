@@ -1,0 +1,76 @@
+/* .product_category{
+    background:#F7EFE5;;
+}
+.product_category_banner{
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+    width: 82%;
+}
+.product_category_products{
+    background: #674188;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 30px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+
+}
+.bgcolor{
+    background: #674188;
+}
+.product_category_loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width:233px;
+    height: 69px;
+    border-radius: 75px;
+    background:#F7EFE5 ;
+    color:#674188;
+    font-size: 28px;
+    font-weight: 500;
+} */
+ .product_category {
+    background: #F7EFE5; /* Off-white background for the category */
+    padding-bottom: 40px;
+}
+
+.product_category_banner {
+    display: block;
+    margin: 0; /* Remove auto margin */
+    width: 100%; /* Set width to 100% */
+    max-width: none; /* Prevent any max-width constraints */
+}
+
+.product_category_products {
+    background: #674188; /* Background for product grid */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 30px 70px; /* Space around the product grid */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    row-gap: 40px; /* Space between rows */
+}
+
+.bgcolor {
+    background: #674188; /* Background color for specific elements */
+}
+
+.product_category_loadmore {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin:auto; /* Center the button with space above and below */
+    width: 200px; /* Fixed width for the button */
+    height: 49px; /* Fixed height for the button */
+    border-radius: 75px; /* Rounded corners */
+    background:#674188; /* Button background color */
+    color:  #F7EFE5; /* Button text color */
+    font-size: 20px; /* Font size for the button text */
+    font-weight: 500; /* Font weight for the button text */
+    text-align: center;/* Padding for better spacing inside the button */
+    cursor: pointer; /* Change cursor to pointer for interactivity */
+}

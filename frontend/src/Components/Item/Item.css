@@ -1,0 +1,52 @@
+.item {
+    width: 200px;
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px #674188; /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    background-color: #F7EFE5; /* White background for contrast */
+    margin: 10px; /* Space between items */
+    padding: 20px; /* Padding inside the item for space around content */
+  }
+  
+  .item img {
+    width: 100%; /* Full width to fit the container */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Crop and fit image */
+    box-shadow: 0 4px 8px #674188; /* Subtle shadow effect */
+    border-bottom: 2px solid ; /* Underline for visual separation */
+    margin-bottom: 15px; /* Space between image and text */
+  }
+  
+  .item p {
+    margin: 0 0 10px; /* Adjusted margin for spacing below the text */
+    color: #674188;
+    font-size: 16px; /* Slightly smaller font size */
+    font-weight: 900; /* Medium weight for better readability */
+  }
+  
+  .item_prices {
+    display: flex;
+    gap: 15px; /* Reduced gap for a more compact look */
+    margin-top: 10px; /* Space above the price section */
+    font-weight: 700;
+  }
+  
+  .item_new_price {
+    color: #674188;
+    font-size: 20px; /* Larger font size for emphasis */
+    font-weight: 900; /* Bolder text for new price */
+  }
+  
+  .item_old_price {
+    color: #9e9e9e; /* Lighter color for old price */
+    font-size: 18px; /* Same font size as before */
+    font-weight: 600; /* Normal weight for old price */
+    text-decoration: line-through;
+  }
+  
+  .item:hover {
+    transform: scale(1.05); /* Slightly larger scale */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
